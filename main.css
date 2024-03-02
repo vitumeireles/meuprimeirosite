@@ -8,19 +8,22 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body, 
 input,
 textarea {
-    font-family: "Roboto", sans-serif;
+    font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
     padding: 16px 16px;
-    background-color:royalblue;
+    background-color:rgb(208, 142, 142);
     color: aliceblue;
 }
 
@@ -46,21 +49,12 @@ section .container {
     justify-content: space-between;
 }
 
-
-
-.brand-list img {
-    height: 24px;
-}
-.brand-list li {
-    display: inline;
-    margin-left: 8px;
-}
 section .container {
     align-items: flex-start;
 }
 section {
     padding: 24px 0;
-    color: royalblue;
+    color:  rgb(208, 142, 142);
 }
 section h2 {
     margin-bottom: 16px;
@@ -74,7 +68,8 @@ section p {
 }
 
 .social-links img {
-    height: 24px;
+    height: 30px;
+    margin-left: 100px;
 }
 
 .social-links li {
@@ -90,6 +85,9 @@ section p {
     display: block;
 }
 
+#about .container img{
+    height: 500px;
+}
 .contact-methods {
     display: flex;
     justify-content: space-between;
@@ -113,23 +111,23 @@ section h3 {
     margin-top: 10px;
 }
 form button {
-    background-color: royalblue ;
+    background-color: rgb(208, 142, 142);
     color: aliceblue;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-
-    background-color: rgb(93, 128, 232);
+    
+    background-color: rgb(234, 156, 156);
 }
 
 input:focus, textarea:focus {
-    outline-color: royalblue;
+    outline-color: rgb(217, 165, 165);
 }
 
 footer {
-    background-color: royalblue;
+    background-color: rgb(208, 142, 142);
     color: aliceblue;
     padding: 16px;
 }
